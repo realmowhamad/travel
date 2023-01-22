@@ -1,29 +1,10 @@
 {
-  "vacations": [
-    {
-      "vacationID": 1,
-      "type": "city"
-    },
-    {
-      "vacationID": 2,
-      "type": "beach"
-    },
-    {
-      "vacationID": 3,
-      "type": "mountain"
-    },
-    {
-      "vacationID": 4,
-      "type": "jungle"
-    },
-        {
-      "vacationID": 5,
-      "type": "desert"
-    },
-    {
-      "vacationID": 6,
-      "type": "village"
-    }
-  ]
-
+"vacations":[
+  {"vacationID":1,"type":"city"},
+  {"vacationID":2,"type":"beach"},
+  {"vacationID":3,"type":"mountain"},
+  {"vacationID":4,"type":"jungle"},
+  {"vacationID":5,"type":"desert"},
+  {"vacationID":6,"type":"village"}
+]
 }
