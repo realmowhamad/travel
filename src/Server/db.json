@@ -1,10 +1,56 @@
-{
-"vacations":[
-  {"vacationID":1,"type":"city"},
-  {"vacationID":2,"type":"beach"},
-  {"vacationID":3,"type":"mountain"},
-  {"vacationID":4,"type":"jungle"},
-  {"vacationID":5,"type":"desert"},
-  {"vacationID":6,"type":"village"}
-]
-}
+
+  {
+    "vacations": [
+      {
+        "vacationID": 1,
+        "location": "City",
+        "image":"../assests/images/city.jpg"
+
+      },
+      {
+        "vacationID": 2,
+        "location": "Beach",
+        "image":"../assests/images/beach.jpg"
+
+      },
+      {
+        "vacationID": 3,
+        "location": "Mountain",
+        "image":"../assests/images/mountain.jpg"
+      
+      },
+      {
+        "vacationID": 4,
+        "location": "Jungle",
+        "image":"../assests/images/jungle.jpg"
+
+      },
+      {
+        "vacationID": 5,
+        "location": "Desert",
+        "image":"../assests/images/desert.jpg"
+
+      },
+      {
+        "vacationID": 6,
+        "location": "Village",
+        "image":"../assests/images/Gilan.jpg"
+  
+      }
+    ],
+    "hosts":[
+      {"id":1,"title":"LakeFront","image":"../assests/images/lakeFront.jpg","items":[]},
+      {"id":2,"title":"VineYards","image":"../assests/images/vineYards.jpg","items":[]},
+      {"id":3,"title":"Design","image":"../assests/images/design.jpg","items":[]},
+      {"id":4,"title":"Luxe","image":"../assests/images/luxe.jpg","items":[]},
+      {"id":5,"title":"AmazingPools","image":"../assests/images/AmazingPools.jpg","items":[]},
+      {"id":6,"title":"HouseBoats","image":"../assests/images/HouseBoats.jpg","items":[]},
+      {"id":7,"title":"AmazingViews","image":"../assests/images/AmazingViews.jpg","items":[]},
+      {"id":8,"title":"Cabins","image":"../assests/images/Cabins.jpg","items":[]},
+      {"id":9,"title":"Islands","image":"../assests/images/island.jpg","items":[]},
+      {"id":11,"title":"Farms","image":"../assests/images/fatms.jpg","items":[]},
+      {"id":12,"title":"caves","image":"../assests/images/caves.jpg","items":[]}
+
+    ]
+    
+  }

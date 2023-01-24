@@ -9,7 +9,7 @@ import React from "react";
 export default function SideBar() {
     return (
 
-        <div className='sticky max-w-1/6 min-w-1/6 h-screen'>
+        <div className='sticky max-w-1/6 min-w-1/6 h-screen hidden sm:block'>
             <h1>Dashboard</h1>
             <ul className={`${style.sideBarList}`}>
                 <Link to=''>

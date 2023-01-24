@@ -3,15 +3,20 @@ import './App.css'
 import { useRoutes } from 'react-router-dom'
 import routes from './Routes/Routes'
 import SideBar from './Components/SideBar/SideBar'
+import { Provider } from 'react-redux'
+import store from './Features/store'
 
 
 function App() {
   const router = useRoutes(routes)
+
   return (
-    <div className="App flex">
-      <SideBar />
-      {router}
-    </div>
+    <Provider store={store}>
+      <div className="App flex">
+        <SideBar />
+        {router}
+      </div>
+    </Provider >
   )
 }
 
