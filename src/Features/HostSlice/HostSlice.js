@@ -13,6 +13,17 @@ export const getAsyncHosts = createAsyncThunk(
         }
     }
 )
+export const getAsyncHostsOffers = createAsyncThunk(
+    "Hosts/getAsyncHostsOffers",
+    async (_, { rejectWithValue }) => {
+        try {
+            const response = await Api.get("/placeOffers")
+            return response.data
+        } catch (error) {
+            return rejectWithValue([], error.message)
+        }
+    }
+)
 
 const initialState = {
     hosts: [],

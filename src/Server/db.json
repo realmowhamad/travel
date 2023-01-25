@@ -50,7 +50,16 @@
       {"id":9,"title":"Islands","image":"../assests/images/island.jpg","items":[]},
       {"id":11,"title":"Farms","image":"../assests/images/fatms.jpg","items":[]},
       {"id":12,"title":"caves","image":"../assests/images/caves.jpg","items":[]}
-
-    ]
-    
+    ],
+      "placeOffers":[
+      {"offerID":1,"title":"wifi","isAvailaible":false},
+      {"offerID":2,"title":"Lake view","isAvailaible":false},
+      {"offerID":3,"title":"TV","isAvailaible":false},
+      {"offerID":4,"title":"Board games","isAvailaible":false},
+      {"offerID":5,"title":"Indoor fireplace","isAvailaible":false},
+      {"offerID":6,"title":"Kayak","isAvailaible":false},
+      {"offerID":7,"title":"Toaster","isAvailaible":false},
+      {"offerID":8,"title":"Waterfront","isAvailaible":false}
+    ]  
+ 
   }
