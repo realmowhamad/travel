@@ -1,11 +1,12 @@
 import React from 'react';
 import style from './Navbar.module.css'
 import { FiSearch, FiMenu } from 'react-icons/fi'
+import { FaUser } from 'react-icons/fa'
 
 const Navbar = () => {
     return (
-        <div className='w-full flex items-center justify-center sm:justify-between h-20 py-3 px-6 my-2 lg:justify-between '>
-            <div className='hidden lg:block'>Logo</div>
+        <div className={`${style.Navbar} w-full flex items-center justify-center sm:justify-between h-20 py-3 mb-10 px-6 my-2 lg:justify-between `}>
+            <div className='hidden lg:block flex-1 '>Logo</div>
 
             <div className={`${style.searchBar} w-full h-full bg-white flex items-center justify-start lg:flex-row-reverse lg:justify-between lg:w-4/12 lg:max-w-lg`}>
 
@@ -28,8 +29,24 @@ const Navbar = () => {
                     </i>
                 </div>
             </div>
-            <div className='hidden lg:block'>
-                user
+
+
+            <div className='hidden lg:flex flex-1 items-center justify-end h-full w-auto'>
+                {/* Hosting */}
+                <div className={`${style.switch} flex-1 flex items-center justify-center p-2 rounded-full bg-transparent`}>
+                    <h1 >Switch to hosting</h1>
+                </div>
+
+                {/* user */}
+
+                <div className={`${style.userAvatar} flex-grow-0 flex  flex-row-reverse  items-center justify-center h-full w-3/12 rounded-full box-border`}>
+                    <i className=" text-xl mx-1 bg-gray-400 rounded-full p-2 ">
+                        <FaUser />
+                    </i>
+                    <i className=" text-3xl text-gray-400  ">
+                        <FiMenu />
+                    </i>
+                </div>
             </div>
         </div>
     );
