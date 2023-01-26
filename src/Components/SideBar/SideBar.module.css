@@ -1,11 +1,13 @@
-.sideBarList li{
+.sideBarList li,.dropdown a{
 display:flex;
 align-items:center;
 font-size: 20px;
 padding:10px 0px;
 }
 
-.sideBarList li:is(:active,:hover){
+
+
+.sideBarList li:is(:active,:hover), .dropdown a:is(:hover,:active){
     background-color: rgba(209, 37, 37, 0.2);
     transition: all 0.3s ease;
 }
