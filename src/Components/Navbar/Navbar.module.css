@@ -1,0 +1,24 @@
+.searchBar,.userAvatar{
+box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    border-radius: 100px;
+
+
+}
+.Navbar{
+    border-bottom: 2px solid #eee;
+
+
+}
+.userAvatar{
+    border: 0.5px solid #eee;
+}  
+
+.searchBar:hover,.userAvatar:hover,.switch:hover {
+    transition: all 0.1s ease-in-out;
+box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.switch:hover{
+    background-color: rgb(65, 65, 65);
+    width: auto;
+}
