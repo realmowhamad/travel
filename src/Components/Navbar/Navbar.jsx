@@ -2,8 +2,16 @@ import React from 'react';
 import style from './Navbar.module.css'
 import { FiSearch, FiMenu } from 'react-icons/fi'
 import { FaUser } from 'react-icons/fa'
+import { Link } from 'react-router-dom';
+
+
 
 const Navbar = () => {
+
+
+
+
+
     return (
         <div className={`${style.Navbar} w-full flex items-center justify-center sm:justify-between h-20 py-3 mb-10 px-6 my-2 lg:justify-between `}>
             <div className='hidden lg:block flex-1 '>Logo</div>
@@ -33,9 +41,9 @@ const Navbar = () => {
 
             <div className='hidden lg:flex flex-1 items-center justify-end h-full w-auto'>
                 {/* Hosting */}
-                <div className={`${style.switch} flex-1 flex items-center justify-center p-2 rounded-full bg-transparent`}>
+                <Link to='/hosting' className={`${style.switch} flex-1 flex items-center justify-center p-2 rounded-full bg-transparent`}>
                     <h1 >Switch to hosting</h1>
-                </div>
+                </Link>
 
                 {/* user */}
 
