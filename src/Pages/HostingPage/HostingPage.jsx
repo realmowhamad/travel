@@ -1,15 +1,15 @@
 import React from 'react';
 import ParagraphCreator from '../../Components/Common/ParagraphCreator/ParagraphCreator';
 import bed from '../../Assets/images/bed.png'
+import BottomBar from '../../Components/BottomBar/BottomBar';
+import Header from '../../Components/Header/Header';
 
 const HostingPage = () => {
 
     return (
         <div className='flex flex-col w-screen h-screen'>
-            <header className=' w-full flex justify-between items-center p-5 px-20'>
-                <h1>A</h1>
-                <button className='border p-2 rounded-full border-gray-600'>Save and Exit</button>
-            </header>
+
+            <Header />
             <section className='flex w-full h-full items-center justify-center'>
                 <div className='w-full h-full flex items-center justify-end '>
                     <h1 className='w-3/6 font-medium text-[56px] text-start'>It’s easy to get started on Airbnb</h1>
@@ -20,6 +20,7 @@ const HostingPage = () => {
                     <ParagraphCreator icon={bed} number={3} header={"Finish up and publish"} content={"Choose if you'd like to start with an experienced guest, set a starting price, and publish your listing."} />
                 </div>
             </section>
+            <BottomBar btnTitle='Get Started' prevRoute={'become-a-host/overview'} nextRoute={"become-a-host/about-your-place"} />
 
         </div>
     );

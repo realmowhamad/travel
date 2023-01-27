@@ -41,7 +41,7 @@ const Navbar = () => {
 
             <div className='hidden lg:flex flex-1 items-center justify-end h-full w-auto'>
                 {/* Hosting */}
-                <Link to='/hosting' className={`${style.switch} flex-1 flex items-center justify-center p-2 rounded-full bg-transparent`}>
+                <Link to='/become-a-host' className={`${style.switch} flex-1 flex items-center justify-center p-2 rounded-full bg-transparent`}>
                     <h1 >Switch to hosting</h1>
                 </Link>
 

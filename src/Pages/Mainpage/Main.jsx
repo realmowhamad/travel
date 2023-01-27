@@ -5,7 +5,7 @@ export default function Main() {
     return (
         <div className=" flex-grow">
             <Navbar />
-
+            Main page
         </div>
     )
 }
