@@ -21,7 +21,6 @@ const HostingPage = () => {
                 </div>
             </section>
             <BottomBar btnTitle='Get Started' prevRoute={'become-a-host/overview'} nextRoute={"become-a-host/about-your-place"} />
-
         </div>
     );
 }

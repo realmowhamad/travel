@@ -4,13 +4,14 @@ import style from './AboutYourPlace.module.css'
 import bed from '../../../Assets/images/bed.png'
 import Header from '../../../Components/Header/Header';
 import BottomBar from '../../../Components/BottomBar/BottomBar';
+import sit from '../../../Assets/images/sit.png'
 
 const AboutYourPlace = () => {
     return (
         <div className=' flex flex-col h-screen'>
             <Header />
             <div className={style.icon}>
-                <img src={bed} alt="" />
+                <img src={sit} alt="" />
             </div>
             <div className={`${style.container} w-5/6  p-10 py-0`}>
                 <div className={`${style.content} pb-24`}>

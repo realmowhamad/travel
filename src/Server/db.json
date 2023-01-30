@@ -60,6 +60,31 @@
       {"offerID":6,"title":"Kayak","isAvailaible":false},
       {"offerID":7,"title":"Toaster","isAvailaible":false},
       {"offerID":8,"title":"Waterfront","isAvailaible":false}
-    ]  
+    ],
+    "structures":[
+      {"stID":1, "title":"House","icon":"../assests/icons/home.png"},
+      {"stID":2, "title":"Flat/apartment","icon":"../assests/icons/apartments.png"},
+      {"stID":3, "title":"Barn","icon":"../assests/icons/barn.png"},
+      {"stID":4, "title":"Bed & breakfast","icon":"../assests/icons/croissant.png"},
+      {"stID":5, "title":"Boat","icon":"../assests/icons/yacht.png"},
+      {"stID":6, "title":"Cabin","icon":"../assests/icons/cabin.png"},
+      {"stID":7, "title":"Campervan/motorhome","icon":"../assests/icons/campervan.png"},
+      {"stID":9, "title":"Castle","icon":"../assests/icons/castle-tower.png"},
+      {"stID":10, "title":"Cave","icon":"../assests/icons/cave.png"},
+      {"stID":11, "title":"Container","icon":"../assests/icons/container.png"},
+      {"stID":13, "title":"Dome","icon":"../assests/icons/aviary.png"},
+      {"stID":14, "title":"Windmill","icon":"../assests/icons/windmill.png"},
+      {"stID":15, "title":"Farm","icon":"../assests/icons/field.png"},
+      {"stID":16, "title":"Guest house","icon":"../assests/icons/"},
+      {"stID":17, "title":"Hotel","icon":"../assests/icons/resort.png"},
+      {"stID":18, "title":"House boat","icon":"../assests/icons/beach-house.png"},
+      {"stID":19, "title":"Shepherd’s hut","icon":"../assests/icons/mobile-home.png"},
+      {"stID":20, "title":"Tent","icon":"../assests/icons/tent.png"},
+      {"stID":21, "title":"Tiny home","icon":"../assests/icons/tiny-house.png"},
+      {"stID":22, "title":"Tower","icon":"../assests/icons/skyline.png"},
+      {"stID":23, "title":"Tree house","icon":"../assests/icons/tree-house.png"},
+      {"stID":24, "title":"Trullo","icon":"../assests/icons/trullo.png"}
+   
+    ]
  
   }
