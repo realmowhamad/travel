@@ -19,7 +19,22 @@ module.exports = {
       '2xl': { 'min': '1536px' },
       // => @media (min-width: 1536px) { ... }
     },
-
+    fontFamily: {
+      "sfRegular": "SFRegular",
+      "sfMedium": "SFRegular",
+      "sfHeavy": "SFHeavy",
+      "sfBold": "SFBold",
+      "sfsBold": "SFsBold",
+    },
+    fontSize: {
+      sm: '0.8rem',
+      base: '1rem',
+      xl: '1.563rem',
+      '2xl': '2rem',
+      '2/xl': '2.5rem',
+      '3xl': '3rem',
+      '3/xl': '3.5rem',
+    }
   },
   plugins: [],
 }

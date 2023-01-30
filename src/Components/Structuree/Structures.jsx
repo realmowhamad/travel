@@ -47,7 +47,7 @@ const Structure = () => {
                     ))
                 }
             </div>
-            <BottomBar />
+            <BottomBar prevRoute={"become-a-host/about-your-place"} nextRoute={""} />
         </div >
     );
 }
