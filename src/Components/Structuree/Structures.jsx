@@ -5,24 +5,25 @@ import Header from '../Header/Header';
 import SliceStructure from './SliceOfStructurees';
 import { addPlaceType } from '../../Features/vacationDataSlice/vacationDataSlice';
 import BottomBar from '../BottomBar/BottomBar';
+import Loader from '../Loader/Loader';
 
 const Structure = () => {
     const AllStructures = useSelector(state => state.stractures)
     const dispatch = useDispatch()
     const { loading, error, stracture } = AllStructures
-    const [structreData, setStructreData] = useState([])
+    // const [structreData, setStructreData] = useState([])
 
     useEffect(() => {
 
         dispatch(getAsyncStracture())
-        setStructreData(stracture)
+        // setStructreData(stracture)
 
     }, []);
 
 
 
     const setStructures = (id) => {
-        const findPlaceType = structreData.find(item => item.stID === id)
+        const findPlaceType = stracture.find(item => item.stID === id)
         dispatch(addPlaceType(findPlaceType))
 
 
@@ -31,18 +32,18 @@ const Structure = () => {
 
 
 
-    if (loading) return <p>Loading...</p>
+    if (loading) return <Loader />
     if (error) return <p>{error}</p>
-
-    if (!error && !loading && structreData) return (
+    console.log("done");
+    if (!error && !loading && stracture) return (
         <div className='flex flex-col h-screen w-screen '>
             <Header />
             <div>
                 <h1>Which of these best describes your place?</h1>
             </div>
             <div className='flex flex-wrap justify-around'>
-                {structreData &&
-                    structreData.map(p => (
+                {stracture &&
+                    stracture.map(p => (
                         <SliceStructure {...p} clickHandler={setStructures} />
                     ))
                 }

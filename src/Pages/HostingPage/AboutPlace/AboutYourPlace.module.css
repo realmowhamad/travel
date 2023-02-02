@@ -1,0 +1,30 @@
+.imageContainer {}
+
+.imageContainer>div {
+
+    overflow: hidden;
+}
+
+.imageContainer>div>img {
+    object-fit: contain;
+    width: 60%;
+    height: auto;
+
+}
+
+.airplanee {
+    animation: airplane 2s forwards infinite alternate ease-in-out;
+}
+
+
+
+@keyframes airplane {
+    from {
+        transform: translateY(-10px);
+    }
+
+    to {
+        transform: translateY(0px);
+
+    }
+}
