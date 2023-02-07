@@ -13,13 +13,17 @@ const vacationDataSlice = createSlice({
     reducers: {
         addPlaceType: (state, action) => {
             state.placeType = action.payload
-            console.log(state.placeType)
+            console.log(state.placeType);
+        },
+        placeTypeStatus: (state, action) => {
+            state.placeType = action.payload
+
         }
     }
 
 
 })
 
-export const { addPlaceType } = vacationDataSlice.actions;
+export const { addPlaceType, placeTypeStatus } = vacationDataSlice.actions;
 export default vacationDataSlice.reducer
 
