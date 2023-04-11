@@ -30,7 +30,7 @@ export default function GuestPlace() {
 
 
 
-            <BottomBar />
+            <BottomBar prevRoute={'become-a-host/structure'} nextRoute={"become-a-host/location"} />
 
         </div>
 
